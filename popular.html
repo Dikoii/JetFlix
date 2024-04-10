@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="popular.css">
+    <title>Popular</title>
+    <script src ="./popular.js" defer> </script>
+    <script src="https://kit.fontawesome.com/f108b5ae3f.js" crossorigin="anonymous"></script>
+    
+</head>
+<body>
+  <nav class = "navbar">
+    <p class = "logo">JeTFlix</p>
+    <div class="resp-navbar">
+        <a href ="index.html" class ="a1">Home</a>  
+        <a href= "popular.html" class = "a1">Popular</a>
+        <a href ="movies.html" class = "astart">Movies</a>  
+        <a href= "signup.html" class = "a1">Sign Up</a>
+        <a href = "#" class="a1">Language</a>
+    </div>            
+      <div class ="searchBox">
+        <input type="text" class="tbox" placeholder=" Search Movie..."/>
+        <button class="btn"><i class ="fas fa-search" id = "search"></i></button>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><ion-icon name="menu-outline"></ion-icon></a>
+      </div>
+  </nav>  
+  <div class="carousel">
+   
+    <button class="carousel_button carousel_left is_hidden">
+      <img class="arrow" src="Movie Pic/left_arrow.png">
+    </button>
+
+   <div class="carousel_container">
+      <ul class="carousel_track">
+          <li class="carousel_slide current_slide first_slide">
+              <img class="carousel_image" src="Movie Pic/PussInBoots_BG.jpg">
+              <div class="jumbotron_text">
+                  <div class="jumbotron_title">
+                    Puss in Boots: The Last Wish
+                  </div>    
+                  <div class ="jumbotron_desc">
+                    <p>When Puss in Boots discovers that his passion for adventure has taken its toll and he has burned through eight of his nine lives, he launches an epic journey to restore them by finding the mythical Last Wish.</p>
+                  </div>
+                  <div class = "genre-content">
+                    <div class ="box">
+                      <p class="genre">Action</p>
+                    </div>
+                    <div class = "box">
+                      <p class="genre">Adventure</p>
+                    </div>
+                    <div class ="box">
+                      <p class="genre">Comedy</p>
+                    </div>
+                  </div> 
+                  <div class="jumbotron_cast">
+                    Cast : Antonio Banderas, Salma Hayek, Harvey Guillén
+                  </div>
+                  <div class="iconPlay">
+                    <div class ="playPuss">
+                      <a href="Detail.html"><span class = "play"><ion-icon name="play"></ion-icon></span></a>
+                    </div>
+                    <div class ="bookmarkPuss">
+                      <span class ="download"><ion-icon name="download-outline"></ion-icon></span>
+                    </div>
+                  </div>
+                  <footer>
+                    <div class="footer-content">                
+                            <p>Copyright &copy; 2023 JetFlix All Rights Reserved <br>We use cookies to improve your experience on this site. By continuing to use our website, you agree to our use of cookies.</p>        
+                        <div class="social_icon">
+                            <span class ="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></span>
+                        </div>    
+                    </div>           
+                </footer>
+              </div>
+          </li>
+          
+          <li class="carousel_slide">
+              <img class="carousel_image" src="Movie Pic/DrRomantic_BG.jpeg">
+              <div class="jumbotron_text">
+                <div class="jumbotron_title">
+                    Dr. Romantic
+                  </div>    
+                  <div class ="jumbotron_desc">
+                    <p>"Romantic Doctor Kim" is a "real doctor" story set in a small, humble hospital called Dol Dam Hospital. It is a story about people who meet Kim Sa Bu (Han Suk Kyu), a genius doctor, and discover "real romance."</p>
+                  </div>
+                  <div class = "genre-content">
+                    <div class ="box">
+                      <p class="genre">Drama</p>
+                    </div>
+                    <div class = "box">
+                      <p class="genre">Romance</p>
+                    </div>
+                    <div class ="box">
+                      <p class="genre">Korean</p>
+                    </div>
+                  </div> 
+                  <div class="jumbotron_cast">
+                    Cast : Han Suk-kyu, Woo-min Byeon, Jin Kyung
+                  </div>
+                  <div class="iconPlay">
+                    <div class ="playPuss">
+                      <a href="detail.html"><span class = "play"><ion-icon name="play"></ion-icon></span></a>
+                    </div>
+                    <div class ="bookmarkPuss">
+                      <span class ="download"><ion-icon name="download-outline"></ion-icon></span>
+                    </div>
+                  </div>
+                  <footer>
+                    <div class="footer-content">                
+                            <p>Copyright &copy; 2023 JetFlix All Rights Reserved <br>We use cookies to improve your experience on this site. By continuing to use our website, you agree to our use of cookies.</p>        
+                        <div class="social_icon">
+                            <span class ="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></span>
+                        </div>    
+                    </div>           
+                </footer>
+              </div>
+          </li>
+
+          <li class="carousel_slide">
+              <img class="carousel_image" src="Movie Pic/CheerUp_BG.jpg">
+              <div class="jumbotron_text">
+                <div class="jumbotron_title">
+                    Cheer Up
+                  </div>    
+                  <div class ="jumbotron_desc">
+                    <p>Do Hae-Yi is a student at Yonhee University. Because her family is poor, she places a priority on making money over school. Hae-Yi joins cheering squad Theia. She only joins the club for money but finds her joy there.</p>
+                  </div>
+                  <div class = "genre-content">
+                    <div class ="box">
+                      <p class="genre">Drama</p>
+                    </div>
+                    <div class = "box">
+                      <p class="genre">Comedy</p>
+                    </div>
+                    <div class ="box">
+                      <p class="genre">Korean</p>
+                    </div>
+                  </div> 
+                  <div class="jumbotron_cast">
+                    Cast : Jang Young-Nam, Baek Ji-won, Bae In-Hyuk
+                  </div>
+                  <div class="iconPlay">
+                    <div class ="playPuss">
+                      <a href="detail.html"><span class = "play"><ion-icon name="play"></ion-icon></span></a>
+                    </div>
+                    <div class ="bookmarkPuss">
+                      <span class ="download"><ion-icon name="download-outline"></ion-icon></span>
+                    </div>
+                  </div>
+                  <footer>
+                    <div class="footer-content">                
+                            <p>Copyright &copy; 2023 JetFlix All Rights Reserved <br>We use cookies to improve your experience on this site. By continuing to use our website, you agree to our use of cookies.</p>        
+                        <div class="social_icon">
+                            <span class ="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></span>
+                        </div>    
+                    </div>           
+                </footer>
+              </div>
+          </li>
+
+          <li class="carousel_slide">
+              <img class="carousel_image" src="Movie Pic/KNY_BG.jpeg">
+              <div class="jumbotron_text">
+                <div class="jumbotron_title">
+                    Kimetsu No Yaiba
+                  </div>    
+                  <div class ="jumbotron_desc">
+                    <p>Tanjiro ventures to the south-southeast where he encounters a cowardly young man named Zenitsu Agatsuma. He is a fellow survivor from Final Selection and his sparrow asks Tanjiro to help keep him in line.</p>
+                  </div>
+                  <div class = "genre-content">
+                    <div class ="box">
+                      <p class="genre">Animation</p>
+                    </div>
+                    <div class = "box">
+                      <p class="genre">Action</p>
+                    </div>
+                    <div class ="box">
+                      <p class="genre">Fantasy</p>
+                    </div>
+                  </div> 
+                  <div class="jumbotron_cast">
+                    Cast : Natsuki Hanae, Takahiro Sakurai, Akari Kito
+                  </div>
+                  <div class="iconPlay">
+                    <div class ="playPuss">
+                      <a href="detail.html"><span class = "play"><ion-icon name="play"></ion-icon></span></a>
+                    </div>
+                    <div class ="bookmarkPuss">
+                      <span class ="download"><ion-icon name="download-outline"></ion-icon></span>
+                    </div>
+                  </div>
+                  <footer>
+                    <div class="footer-content">                
+                            <p>Copyright &copy; 2023 JetFlix All Rights Reserved <br>We use cookies to improve your experience on this site. By continuing to use our website, you agree to our use of cookies.</p>        
+                        <div class="social_icon">
+                            <span class ="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></span>
+                        </div>    
+                    </div>           
+                </footer>
+              </div>
+          </li>
+
+          <li class="carousel_slide">
+            <img class="carousel_image" src="Movie Pic/Sing2_BG.webp">
+            <div class="jumbotron_text">
+                <div class="jumbotron_title">
+                    Sing 2
+                  </div>    
+                  <div class ="jumbotron_desc">
+                    <p>Buster Moon and his musically gifted friends must persuade the reclusive rock star Clay Calloway to join them for the opening of their new show.The story is set after the events of the previous film with Buster Moon and his group putting on a show in Redshore City</p>
+                  </div>
+                  <div class = "genre-content">
+                    <div class ="box">
+                      <p class="genre">Animation</p>
+                    </div>
+                    <div class = "box">
+                      <p class="genre">Action</p>
+                    </div>
+                    <div class ="box">
+                      <p class="genre">Fantasy</p>
+                    </div>
+                  </div> 
+                  <div class="jumbotron_cast">
+                    Cast : Matthew McConaughey, Reese Witherspoon, Scarlett Johansson
+                  </div>
+                  <div class="iconPlay">
+                    <div class ="playPuss">
+                      <a href="detail.html"><span class = "play"><ion-icon name="play"></ion-icon></span></a>
+                    </div>
+                    <div class ="bookmarkPuss">
+                      <span class ="download"><ion-icon name="download-outline"></ion-icon></span>
+                    </div>
+                  </div>
+                  <footer>
+                    <div class="footer-content">                
+                            <p>Copyright &copy; 2023 JetFlix All Rights Reserved <br>We use cookies to improve your experience on this site. By continuing to use our website, you agree to our use of cookies.</p>        
+                        <div class="social_icon">
+                            <span class ="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></span>
+                            <span class ="icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></span>
+                        </div>    
+                    </div>           
+                </footer>
+            </div>
+        </li>
+
+      </ul>
+   </div>
+
+   <button class="carousel_button carousel_right">
+            <img class="arrow" src="Movie Pic/right_arrow.png">
+        </button>
+
+
+        <div class="navigations">
+            <div class="nav_indicator current_circle"></div>
+            <div class="nav_indicator"></div>
+            <div class="nav_indicator"></div>
+            <div class="nav_indicator"></div>
+            <div class="nav_indicator"></div>
+        </div>
+    </div>
+    
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>

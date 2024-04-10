@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="signup.css">
+    <title>SignUp</title>
+    <script src ="./signup.js" defer> </script>
+    <script src="https://kit.fontawesome.com/f108b5ae3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+   <section class="signup">
+    <span class = "icon-close"><ion-icon name="close"></ion-icon></span> 
+    <div class ="form-box">
+        <h2 class = "logo">Sign Up</h2>
+        <form action="index.html" method="get" onsubmit="validateForm(event)" id ="registForm">
+            <div class="input-box">
+                <span class ="icon"><ion-icon name="people"></ion-icon></span>
+                <label for = "name">Full Name</label>
+                <input type="name" placeholder = "Enter Name" class = "inputbox" id="name" required>
+            </div>
+            <div class="row">
+                <div class="input-box">
+                    <span class ="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <label for ="password">Password</label>
+                    <input type="password" placeholder="Enter Password" class = "inputbox" id ="password" required>
+                </div>
+                <div class="input-box">
+                    <span class ="icon"><ion-icon name="lock-closed"></ion-icon></span>
+                    <label for ="confirmpassword">Confirm Password</label>
+                    <input type="password" placeholder="Enter Confirm Password" class = "inputbox" id="confirmpassword" required>
+                </div>    
+            </div>
+            <div class = "input-box">
+                <span class ="icon"><ion-icon name="calendar"></ion-icon></span>
+                <label for = "dob">Date of Birthday</label>
+                <input type="date" id ="dob" name = "dob" class = "inputbox" required>
+            </div>
+            <div class = "inputgender">
+                <span class="icon"><ion-icon name="male-female"></ion-icon></span>
+                <label>Gender</label>
+                <div class ="radiogroup">
+                    <input type= "radio" id ="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+                    <input type= "radio" id ="female" name="gender" value="female" required>
+                    <label for="female">Female</label>    
+                </div>
+            </div>
+            <div class="terms">
+                <label for ="agree"><input type="checkbox" name = "terms" id = "agree" required> I agree with Jetflix terms and conditions</label>
+            </div>
+            <div class = "signbutton">
+                <button type="submit" class = "btn">Sign Up</button>    
+            </div>
+            <h4 id ="error" class = "errormessage"></h4>
+        </form>
+    </div>
+   </section>
+</div>
+<footer>
+    <div class="footer-content">
+
+            <p>Copyright &copy; 2023 JetFlix All Rights Reserved <br>We use cookies to improve your experience on this site. By continuing to use our website, you agree to our use of cookies.</p>
+
+        <div class="social_icon">
+            <span class ="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+            <span class ="icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></span>
+            <span class ="icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></span>
+        </div>    
+    </div>
+
+</footer>
+    
+</body>   
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</html>

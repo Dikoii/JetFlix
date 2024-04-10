@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="movies.css">
+    <title>Movies</title>
+    <script src ="./movies.js" defer> </script>
+    <script src="https://kit.fontawesome.com/f108b5ae3f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <nav class = "navbar">
+    <p class = "logo">JeTFlix</p>
+    <div class="resp-navbar">
+        <a href ="index.html" class ="a1">Home</a>  
+        <a href= "popular.html" class = "a1">Popular</a>
+        <a href ="movies.html" class = "astart">Movies</a>  
+        <a href= "signup.html" class = "a1">Sign Up</a>
+        <a href = "#" class="a1">Language</a>
+    </div>            
+      <div class ="searchBox">
+        <input type="text" class="tbox" placeholder=" Search Movie..."/>
+        <button class="btn"><i class ="fas fa-search" id = "search"></i></button>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="hamburger-menu"><ion-icon name="menu-outline"></ion-icon></a>
+      </div>
+  </nav>  
+    <div class = "jumbotron">
+        <img src ="Movie Pic/AliceInWonderLand_Photo.jpg" class = "photo">
+        <div class = "title">
+            <p>Alice in Wonderland</p>
+        </div>
+        <div class = "description">
+            <p>
+              Nineteen-year-old Alice returns to the magical world from her childhood adventure, where she reunites with her old friends and learns of her true destiny: to end the Red Queen's reign of terror.
+            </p>
+        </div>
+        <div class="genre-content">
+          <div class ="boxes">
+              <p class="genre">Adventure</p>
+          </div>
+          <div class = "boxes">
+              <p class="genre">Family</p>
+          </div>
+          <div class ="boxes">
+              <p class="genre">Fantasy</p>
+          </div>
+        </div>
+    
+        <div class="iconPlay">
+            <button class ="playPuss">
+              <span class = "play"><ion-icon name="play"></ion-icon></span>
+            </button>
+        </div>
+      </div>
+    <section class="main-container" >
+      <h1 id="mylist">Action<span class ="icon-next"><ion-icon name="chevron-forward-outline"></ion-icon></span></h1>
+
+      <div class="box">
+            <a href="Detail.html"><img src="Movie Pic/PussInBoots_Photo.jpg" alt=""></a>
+            <a href=""><img src="Movie Pic/PawPatrol_Photo.jpg" alt=""></a>
+            <a href=""><img src="Movie Pic/RiseOfGuardian_Photo.jpg" alt=""></a>
+            <a href=""><img src="Movie Pic/Lego_Photo.jpg" alt=""></a>
+            <a href=""><img src="Movie Pic/Sonic_Photo.jpg" alt=""></a>  
+          </div>
+      </div>
+      <h1 id="myList">Adventure<span class ="icon-next"><ion-icon name="chevron-forward-outline"></ion-icon></h1>
+      <div class="box">
+        <a href=""><img src="Movie Pic/AliceInWonderLand_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/BossBaby2_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/Sing2_Photo.jpeg" alt=""></a>
+        <a href=""><img src="Movie Pic/PawPatrol_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/TheBadGuys_Photo.jpeg" alt=""></a>                  
+      </div>
+      <h1 id="myList">Comedy<span class ="icon-next"><ion-icon name="chevron-forward-outline"></ion-icon></h1>
+      <div class="box">
+        <a href="Detail.html"><img src="Movie Pic/PussInBoots_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/BossBaby2_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/Sing2_Photo.jpeg" alt=""></a>
+        <a href=""><img src="Movie Pic/TheBadGuys_Photo.jpeg" alt=""></a>                  
+        <a href=""><img src="Movie Pic/OnePiece_Photo.jpg" alt=""></a>                  
+      </div>
+      <h1 id="myList">Animation<span class ="icon-next"><ion-icon name="chevron-forward-outline"></ion-icon></h1>
+      <div class="box">
+        <a href=""><img src="Movie Pic/RiseOfGuardian_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/BossBaby2_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/Sing2_Photo.jpeg" alt=""></a>
+        <a href=""><img src="Movie Pic/PawPatrol_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/Turbo_Photo.jpg" alt=""></a>                  
+      </div>
+      <h1 id="myList">Series<span class ="icon-next"><ion-icon name="chevron-forward-outline"></ion-icon></h1>
+      <div class="box">
+        <a href=""><img src="Movie Pic/DrRomantic_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/AliceInWonderLand_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/KNY_Photo.webp" alt=""></a>
+        <a href=""><img src="Movie Pic/CheerUp_Photo.jpg" alt=""></a>
+        <a href=""><img src="Movie Pic/AgainMyLife_Photo.jpg" alt=""></a>                  
+      </div>
+    </section>
+    <footer>
+      <div class="footer-content">                
+              <p>Copyright &copy; 2023 JetFlix All Rights Reserved <br>We use cookies to improve your experience on this site. By continuing to use our website, you agree to our use of cookies.</p>        
+          <div class="social_icon">
+              <span class ="icon"><ion-icon name="logo-instagram"></ion-icon></span>
+              <span class ="icon"><ion-icon name="logo-facebook"></ion-icon></ion-icon></span>
+              <span class ="icon"><ion-icon name="logo-twitter"></ion-icon></ion-icon></span>
+          </div>    
+      </div>           
+  </footer>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
